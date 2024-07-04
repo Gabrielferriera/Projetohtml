@@ -1,0 +1,59 @@
+body {
+    background-image: url('fundo-preto-vermelho-metalico-abstrato-com-listras-de-contraste_71775-543.avif');
+    background-size: cover; /* Cobrir toda a área do body */
+    background-position: center; /* Centralizar a imagem */
+    background-repeat: no-repeat; /* Evitar repetir a imagem */
+    background-attachment: fixed; /* Fixar o plano de fundo para evitar rolagem */
+    color: #FFFDD7;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura como a altura total da viewport */
+    margin: 0; /* Remove a margem padrão do body */
+}
+
+strong {
+    color: #FF0000; /* Cor vermelha para o texto destacado */
+}
+
+.container {
+    display: flex;
+    align-items: flex-start; /* Alinha os itens ao topo */
+    justify-content: space-between; /* Distribui espaço entre os itens */
+    width: 90%; /* Define uma largura máxima para o contêiner */
+}
+
+.texto {
+    flex: 1;
+    margin-left: 50px; /* Empurra o texto para a direita */
+    margin-right: 20px; /* Espaçamento entre o texto e a imagem */
+    max-width: 100%; /* Garante que o texto não ultrapasse metade da largura */
+    font-size: 1.2em; /* Aumenta o tamanho do texto */
+}
+
+.texto h1 {
+    font-size: 2em; /* Aumenta o tamanho do título */
+    margin-bottom: 40px; /* Espaçamento entre o título e o texto */
+}
+.imagem img {
+    width: 150%;
+    max-width: 400px; /* Ajuste conforme necessário */
+}
+
+/* Estilo dos botões */
+a {
+    display: inline-block;
+    background-color: #FF0000; /* Cor vermelha para os botões */
+    color: #FFFDD7; /* Cor do texto dos botões */
+    padding: 10px 20px; /* Espaçamento interno dos botões */
+    margin: 15px 10px; /* Espaçamento externo dos botões */
+    text-decoration: none; /* Remove a sublinha dos links */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 1em; /* Tamanho da fonte dos botões */
+    text-align: center; /* Centraliza o texto dos botões */
+}
+
+a:hover {
+    background-color: #D00000; /* Cor mais escura quando o mouse passa sobre o botão */
+}
